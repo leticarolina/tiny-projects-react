@@ -13,3 +13,4 @@ All of the CSS is already provided for you along with the appropriate class name
 5. Pass the user information into the `UserCard` component from the `App.jsx` file
 6. Try manually changing the data in the `user.json` file to test that everything is hooked up properly
 7. Repeat steps 4-6 but with a class component instead of a function component
+# tiny-projects-react
