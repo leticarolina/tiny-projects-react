@@ -9,7 +9,19 @@ function App() {
   {
     JSON.stringify(user);
   }
-  return <UserCard></UserCard>;
+  return (
+    <UserCard
+      name={user.name}
+      age={user.age}
+      phoneNumber={user.phoneNumber}
+      address={user.address}
+    >
+      {" "}
+    </UserCard>
+  );
 }
+
+//name= age= these are exactly the props the fucntion/componenet UserCard has
+// {user.name} {user.age} referring to the user.json and getting the object values by it's key
 
 export default App;
